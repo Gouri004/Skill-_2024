@@ -12,7 +12,7 @@ contract TimeLockedContract {
     uint256 public waitingPeriod;
 
     // Constructor
-    constructor(uint256 _waitingPeriod) {
+    constructor(uint256 _waitingPeriod)  {
         waitingPeriod = _waitingPeriod;
     }
 
